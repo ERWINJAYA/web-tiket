@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar .navbar-brand {
+    height: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-size: 15px;
+}
+
+
+.nav-link:hover {
+    color: #F4A460 !important;
+    border-bottom: 2px solid #F4A460;
+    
+}
+
+ul li .btn-success{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+ul li .btn-success:hover {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}
+
+.container .btn:hover {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}
+

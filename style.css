@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Kolker+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    background: rgb(198,198,198);
+    background: linear-gradient(236deg, rgba(198,198,198,1) 0%, rgba(17,24,25,1) 87%);
+    
+}
+
+.navbar .navbar-brand {
+    height: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-size: 15px;
+}
+
+
+.nav-link:hover {
+    color: #F4A460 !important;
+    border-bottom: 2px solid #F4A460;
+    
+}
+
+ul li .btn-success{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+ul li .btn-success:hover {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}
+
+.banner{
+    height: 320px;
+    width: 200px;
+    padding-top: 80px;
+    background: linear-gradient(
+        to right, rgb(0 0 0/ .8), rgb(0 0 0/ 0)), url(./image/latar1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner h3 {
+    text-shadow: -12px -8px 12px rgba(87,149,192,0.89);
+    font-family: 'Poppins', sans-serif;
+}
+
+.tombol {
+    padding: 20px;
+    display: flex;
+    
+}
+
+.container .tombol:hover {
+    background-color: #000;
+    color: #fff !important;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+.flexbox {
+    color: aquamarine;
+}
+
+.btn-primary {
+    margin-left: 50px;
+    margin-right: 50PX;
+}
+
+.titleBox hr {
+    margin-right: 70%;
+    color: #fff;
+}
+
+#rekomendasi .titleBox{
+    margin-top: 150px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: rgb(251,244,244);
+    background: linear-gradient(142deg, rgba(251,244,244,1) 0%, rgba(144,144,144,1) 70%);
+}
+
+.card-body {
+    padding: 20px;
+    color: #fff;
+}
+
+.card-body a:hover {
+    background-color: transparent;
+    color: #fff !important;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.button {
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+}
+
+#about h3 {
+    font-size: 400;
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#about .btn-success:hover {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}
+
+.card-fitur h5 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0,6);
+    opacity: 1;
+}
+
+.event-entry .beli:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+footer h3 {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pembayaran img {
+    height: 50px;
+    width: 50px;
+    align-items: flex;
+}
+
+.bi-facebook:hover {
+    padding: 2px;
+}
+.bi-instagram:hover {
+    padding: 2px;
+}
+.bi-whatsapp:hover {
+    padding: 2px;
+}
+.bi-twitter:hover {
+    padding: 2px;
+}
+
+/* login.php */
+
+#login {
+    padding: 0;
+    margin: 0;
+    background: url(./image/cinema.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#login .container h1 {
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(328deg, rgba(2,0,36,1) 0%, rgba(63,93,102,1) 0%, rgba(28,212,250,1) 96%, rgba(0,212,255,1) 100%);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 5px #fff;
+}
+
+.form-container {
+    background: rgb(2,0,36);
+    background: linear-gradient(328deg, rgba(2,0,36,1) 0%, rgba(63,93,102,1) 0%, rgba(28,212,250,1) 96%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0 #000;
+    padding: 30px;
+}
+
+.form-container .textform {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container .formlogin:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* register */
+
+#register {
+    padding: 0;
+    margin: 0;
+    background: url(./image/cinema.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#register .container h1 {
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(328deg, rgba(2,0,36,1) 0%, rgba(63,93,102,1) 0%, rgba(28,212,250,1) 96%, rgba(0,212,255,1) 100%);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 5px #fff;
+}
+
+.form-register {
+    background: rgb(2,0,36);
+    background: linear-gradient(328deg, rgba(2,0,36,1) 0%, rgba(63,93,102,1) 0%, rgba(28,212,250,1) 96%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 380px;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0 #000;
+    padding: 20px;
+}
+
+.form-register .textform {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-register .formlogin:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
